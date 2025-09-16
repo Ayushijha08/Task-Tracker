@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;  
+}
+#root {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0px 10px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#create-task-input{
+    padding: 10px;
+}
+#create-task-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.card {
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #FCFEFF;
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 3px;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
